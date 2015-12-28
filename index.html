@@ -1,17 +1,10 @@
-<!doctype html> <html> <head> <meta charset="utf-8"> <title>Fish Game v.015</title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <link rel="shortcut icon" type="image/png" href="favicon.ico"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.334f2814.css"> <link rel="stylesheet" href="styles/main.03ad415e.css"> </head> <body ng-app="incrementalApp"> <!--[if lte IE 8]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
-    your browser</a> to improve your experience.</p>
-<![endif]--> <div class=""> <div ng-controller="MainCtrl as main"> <div class="warnalert" ng-cloak=""> <uib-alert ng-repeat="alert in main.alerts" type="{{alert.type}}" close="main.closeAlert($index)"> {{alert.msg}} </uib-alert></div> <md-tabs class="md-primary" md-selected="main.selectedIndex" md-stretch-tabs="never"> <md-tab ng-click="main.selectTab(0)"> <md-tab-label>{{main.user.units['fish'].owned | floor}} Fish {{main.game.fishPerSec}}</md-tab-label> </md-tab> <md-tab ng-click="main.selectTab(1)"> <md-tab-label>{{main.user.units['dollar'].owned | floor}} Dollars</md-tab-label> </md-tab> <md-tab ng-click="main.selectTab(2)"> <md-tab-label>Research</md-tab-label> </md-tab> <md-tab ng-click="main.selectTab(3)"> <md-tab-label>{{main.user.units['pearl'].owned | floor}} Pearls</md-tab-label> </md-tab> </md-tabs> <div class="optionsdial"> <md-fab-speed-dial ng-cloak md-open="main.isOpen" md-direction="{{main.selectedDirection}}" ng-class="main.selectedMode"> <md-fab-trigger> <md-button aria-label="menu" class="md-fab md-warn"> <md-tab-label><span class="glyphicon glyphicon-menu-hamburger"></span></md-tab-label> </md-button> </md-fab-trigger> <md-fab-actions> <md-button aria-label="Options" class="md-fab md-mini md-raised" href="#/tab/options"> <md-tab-label><span class="glyphicon glyphicon-cog"></span></md-tab-label> </md-button> <md-button aria-label="Changelog" class="md-fab md-raised md-mini" href="#/tab/changelog"> <md-tab-label><span class="glyphicon glyphicon-book"></span></md-tab-label> </md-button> <md-button aria-label="Statistics" class="md-fab md-raised md-mini" href="#/tab/statistics"> <md-tab-label><span class="glyphicon glyphicon-stats"></span></md-tab-label> </md-button> </md-fab-actions> </md-fab-speed-dial> </div> <div ng-view=""></div> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>(function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    //ga('create', 'UA-69117458-2', 'auto');
-    //ga('send', 'pageview');</script> <script src="scripts/vendor.a7c339d8.js"></script> <script src="scripts/scripts.655a1a77.js"></script> </body> </html>
+<!doctype html> 
+<html> 
+<head> 
+<meta charset="utf-8"> 
+<title>Fish Game v?</title>
+</head>
+<body>
+<h6>Working on it. Update soon-ish</h6>
+</body>
+</html>
